@@ -7,8 +7,13 @@ public class Main {
 
         JosephusSurvivor js = new JosephusSurvivor();
 
-        System.out.println(js.josephusSurvivor(3, 10));
-        System.out.println(js.josephusSurvivor(14, 2));
+        System.out.println(js.josephusSurvivor(7, 3));
+        System.out.println(js.josephusSurvivor(7, 2));
+        System.out.println(js.josephusSurvivor(41, 2));
+
+        JS2 js2 = new JS2();
+
+        System.out.println(js2.josephusSurvivor(41, 2));
 
     }
 }
